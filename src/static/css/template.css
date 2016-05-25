@@ -1,0 +1,75 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    /*
+    background: #165387;
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    */
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.capitalize-fl::first-letter{
+	text-transform: uppercase;
+}
+.font-bold{
+    font-weight: bold;
+}
+.navbarLogoAnchor{
+	padding:0px 0px 0px 8px !important;
+}
+.navbarLogoAnchor img{
+	height: 48px;
+}
+.butonList > div{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.signin-card{
+    padding: 40px;
+    max-width: 400px;
+    margin: auto;
+}
+/*
+.panel {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.color-white{
+    color: white;
+}
+*/
+
+textarea{
+    resize: none;
+}
+
+.wordwrap { 
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.mar-bot-1{
+    margin-bottom: 1em;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
